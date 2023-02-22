@@ -1,0 +1,78 @@
+
+    :root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+    --paragraph:0.9rem;
+    }
+
+  html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  *,
+  *::after,
+  *::before{
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: beige;
+    
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a { 
+  color: hsl(228, 45%, 44%);
+  }
+
+
+  .card-container {
+    background-color: white;
+    border-radius: 0.8rem;
+    min-width: 375px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  article.img {
+    margin-top: 1rem;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+  article.texts {
+    text-align: center;
+  }
+
+  .texts p {
+    font-size: var(--paragraph);
+    color: var(--Grayish-blue);
+    font-weight: 400;
+  
+  }
+
+  .texts h1 {
+    color: var(--Dark-blue);
+    font-weight: 700;
+  }
+
+  @media screen and (min-width: 500px) {
+
+  }
