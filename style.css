@@ -33,7 +33,7 @@ img {
   background-color: var(--White);
   border-radius: 0.9em;
   text-align: center;
-  margin-top: 3.5rem;
+  margin-top: 6.5rem;
  
 }
 
@@ -68,12 +68,12 @@ img {
   line-height: 1.2rem;
 }
 
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 600px) {
   .container{
     margin: 0 auto;
-    margin-top: 1rem;
-    width: 30%;
+    margin-top: 6rem;
     height: auto;
+    max-width: 50vh;
   }
   
 }
